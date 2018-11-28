@@ -1,0 +1,34 @@
+# Predicting Bike Rentals
+
+Many American cities have communal bike sharing stations where you can rent bicycles by the hour or day. 
+
+Washington, D.C. is one of these cities. The District collects detailed data on the number of bicycles people rent by the hour and day.
+
+The data set used for this project can be found [here](http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset).
+
+
+The file contains 17380 rows, with each row representing the number of bike rentals for a single hour of a single day.
+
+Following are the descriptions for the a few columns:
+
+- instant - A unique sequential ID number for each row
+- dteday - The date of the rentals
+- season - The season in which the rentals occurred
+- yr - The year the rentals occurred
+- mnth - The month the rentals occurred
+- hr - The hour the rentals occurred
+- holiday - Whether or not the day was a holiday
+- weekday - The day of the week (as a number, 0 to 7)
+- workingday - Whether or not the day was a working day
+- weathersit - The weather (as a categorical variable)
+- temp - The temperature, on a 0-1 scale
+- atemp - The adjusted temperature
+- hum - The humidity, on a 0-1 scale
+- windspeed - The wind speed, on a 0-1 scale
+- casual - The number of casual riders (people who hadn't previously signed up with the bike sharing program)
+- registered - The number of registered riders (people who had already signed up)
+- cnt - The total number of bike rentals (casual + registered)
+
+
+In this project, I will try to predict the total number of bikes people rented in a given hour. For the predictions, we will not be using the casual and registered columns as they leak out the information we are trying to predict.
+
