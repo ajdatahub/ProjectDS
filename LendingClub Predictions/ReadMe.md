@@ -19,5 +19,3 @@ Each borrower fills out a comprehensive application, providing their past financ
 
     __Can we build a machine learning model that can accurately predict if a borrower will pay off their loan on time or not?__
 
-
-Before we can start doing machine learning, we need to clean our data and define what features we want to use and which column repesents the target column we want to predict.
